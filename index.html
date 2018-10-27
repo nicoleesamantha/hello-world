@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
     </head>
+    
     <body>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <!-- WOW.js -->
@@ -41,9 +42,7 @@
     </div>
 </div>
 
-  
-  <!--- Header -->
- 
+<!--- Header -->
  <div id="header" class="header">
      <div class="container">
          <div class="row">
@@ -60,8 +59,6 @@
      </div>
  </div>
   
-<!-- End Header -->
-
 <!-- About Us -->
 <div id="about" class="about">
     <div class="container">
@@ -74,12 +71,12 @@
         <h3>Our Work</h3>
         <div class="row">
             <div class="col-lg-6 col-sm-6">
-                <i class="fas fa-seedling" aria-hidden="true"></i>
+                <i class="fas fa-cloud" aria-hidden="true"></i>
                 <span><strong>Climate</strong></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div class="col-lg-6 col-sm-6">
-                <i class="fas fa-seedling" aria-hidden="true"></i>
+                <i class="fas fa-tint" aria-hidden="true"></i>
                 <span><strong>Oceans</strong></span>
                 <p>Hello world hahaha world super</p>
             </div>
@@ -92,16 +89,17 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div class="col-lg-6 col-sm-6">
-                <i class="fas fa-seedling" aria-hidden="true"></i>
+                <i class="fas fa-city" aria-hidden="true"></i>
                 <span><strong>Cities</strong></span>
                 <p>Hello world hahaha world super</p>
             </div>
         </div>
     </div>
 </div>
+
 <!-- Team -->
 <div id="team" class="team">
-    <dic class="container">
+    <div class="container">
         <h2>Our Team</h2>
         
         <div class="row">
@@ -145,23 +143,112 @@
                 </p>
             </div>
             </div>
+            </div>
+                </div>
 
-<!-- Contact -->
+<!-- Contact Us -->
 <div id="contact" class="contact">
     <div class="container">
         <h2>Contact Us</h2>
         <div class="row">
             <div class="col-lg-6 col-md-6">
-                
-                
+                <div class="input-group input-group-lg">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-user" aria-hidden="true"></i></span>
+                    </div>
+                    <input type="text" class="form-control" aria-describedby="sizing-addon-1" placeholder="Full Name" />
+                </div>
+                <div class="input-group input-group-lg">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope" aria-hidden="true"></i></span>
+                    </div>
+                    <input type="text" class="form-control" aria-describedby="sizing-addon-1" placeholder="Email" />
+                </div>
+                <div class="input-group input-group-lg">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone" aria-hidden="true"></i></span>
+                    </div>
+                    <input type="text" class="form-control" aria-describedby="sizing-addon-1" placeholder="Phone Number" />
+                </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                
+                <div class="input-group">
+                    <textarea cols="80" rows="6" class="form-control message"></textarea>
+                </div>
+                <button class="btn btn-primary btn-block" type="button">Submit</button>
             </div>
         </div>
     </div>
 </div>
 
+<!-- Donate -->
+<div class="donate" id="donate">
+    <div class="container">
+        <h2>Donate</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-6">
+                <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$25</button>
+                <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$50</button>
+                <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$100</button>
+            </div>
+        </div> 
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-6">
+                <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$250</button>
+                <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$500</button>
+                <button class="btn btn-outline-primary btn-lg" aria-pressed="true">$1000</button>
+            </div>
+        </div> 
+        <div class="justify-content-center">
+            <div class="col-lg-6 col-md-6">
+                <input type="text" class="form-control" placeholder="$" aria-label="" aria-describedby="basic-addon1">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button">Donate</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!-- Footer -->
+<div id="footer" class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <h4>Contact</h4>
+                <p><i class="fa fa-home"></i> 1234 This Street my City 12345</p>
+                <p><i class="fa fa-envelope"></i> hello@company.org</p>
+                <p><i class="fa fa-phone"></i> (636) 456-2585</p>
+                <p><i class="fa fa-globe"></i> www.thisCompany.org</p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <h4>About</h4>
+                <p><i class="fa fa-square-o"></i> About Us</p>
+                <p><i class="fa fa-square-o"></i> Privacy</p>
+                <p><i class="fa fa-square-o"></i> Terms and Conditions</p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <h4>Social Media</h4>
+                <p>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-linkedin"></i>
+                </p>
+                <input type="text" class="form-control" placeholder="Email Address" aria-label="" aria-describedby="basic-addon1">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+ 
+ 
  
     </body>
 </html>
