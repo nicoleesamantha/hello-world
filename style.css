@@ -1,3 +1,7 @@
+.mainimage{
+    
+}
+
 *{
  padding:0;
  margin:0;
@@ -44,6 +48,9 @@ p{
     font-weight: 500;
 }
 
+.navbarNavAltMarkup {
+    margin: 50px;
+}
 /*HEADER*/
 .header{
     box-sizing: border-box;
@@ -173,4 +180,8 @@ p{
     width: 330px;
     padding: 10px;
     margin: 5px;
+}
+
+#companyname{
+    margin-right: 445px;
 }
