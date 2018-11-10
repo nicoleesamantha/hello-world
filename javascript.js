@@ -6,8 +6,8 @@ function showSlides() {
     var slides = document.getElementsByClassName("myimages");
 //for loop breaks up into 3 loops
     //1st loop: i=0, slides[0] = img1
-    //2nd loop: i=0, slides[0] = img2
-    //3rd loop: i=0, slides[0] = img3
+    //2nd loop: i=1, slides[0] = img2
+    //3rd loop: i=2, slides[0] = img3
     for (var i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
